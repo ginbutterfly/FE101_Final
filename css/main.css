@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	background: #8b8982;
+	z-index: 10;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header .navbar-brand {
+	font-weight: 900;
+	padding-left: 20px;
+}
+
+.header .navbar {
+	margin: 0;
+	border: none;
+}
+
+/*.header .navbar a:visited {
+	text-decoration: none;
+}*/
+
+
+/*.navbar-default a {
+	color: #f2e8d9;
+}*/
+
+
+body {
+	background-color: #f2e8d9;
+	color: #5d6163;
+	font-family: 'Quicksand', sans-serif;
+/*	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;*/
+}
+
+.page-section {
+	width: 100%;
+	min-height: 800px;
+	padding: 50px 0;
+	border-bottom: 10px solid #fff;
+}
+
+.page-section h1 {
+	/*font-size: 4em;*/
+	margin: 50px 0;
+}
+
+.page-section h1 span {
+	font-weight: 200;
+}
+
+.page-section h2 {
+	font-size: 3em;
+	font-weight: 900;
+	color: #fff;
+	margin: 0 0 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.page-section p {
+	font-size: 1.2em;
+	font-weight: 200;
+	margin: 0 25% 20px 0;
+}
+
+.page-section p.lead {
+	font-size: 1.5em;
+}
+
+.page-section.intro {
+	min-height: 600px;
+}
+.page-section#charity-1 {
+/*	background: url(../images/Page1.jpg) 100% no-repeat;*/
+background-color: #ced3dc;
+}
+
+
+@media (min-width: 768px) {
+	.header .navbar-brand {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		float: right;
+	}
+}
+
+@media (max-width: 480px) {
+	.page-section h1 {
+		font-size: 3em;
+	}
+	.page-section h2 {
+		font-size: 2em;
+	}
+	.page-section p {
+		font-size: 1em;
+		margin: 0 0 20px;
+	}
+}
