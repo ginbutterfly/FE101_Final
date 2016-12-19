@@ -32,3 +32,14 @@ if (typeof console === "undefined") {
         log: function() { }
     };
 }
+
+$(window).resize(function(){
+
+  if($(window).width()<768){
+    $('.navbar.navbar-inverse').css('background-color','#DFF1F9');
+  }
+  else
+  {
+    $('.navbar.navbar-inverse').css('background-color','#DFF1F9');
+  }
+});
